@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed72905-390f-4875-8778-ba0c4656a099" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Queue/PerfectSquares.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tst/Queue/PerfectSqaureTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Queue/PerfectSquares.java" afterPath="$PROJECT_DIR$/src/Queue/PerfectSquares.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,10 +41,11 @@
       <file leaf-file-name="PerfectSquares.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Queue/PerfectSquares.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1543716651000" expanded="true" signature="629:2236" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -633,10 +633,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Queue/PerfectSquares.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1543716651000" expanded="true" signature="629:2236" ph="{...}" />
           </folding>
         </state>
       </provider>

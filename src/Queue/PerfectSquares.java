@@ -8,8 +8,20 @@ import java.util.Queue;
 import java.util.Set;
 
 public class PerfectSquares {
-    // BFS
     public int numSquares(int n) {
+        int[] count = new int[n+1];
+        Arrays.fill(count, Integer.MAX_VALUE);
+        count[0] = 0;
+        for (int i = 1; i <= n; i ++) {
+            for (int j = 1; j*j <= i; j++) {
+                int square = j*j;
+                count[i] = Math.min(count[i-square] + 1, count[i]);
+            }
+        }
+        return count[n];
+    }
+    // BFS
+    public int numSquares_BFS(int n) {
         if (n <= 0) return 0;
         List<Integer> perfect = new ArrayList<>();
 
